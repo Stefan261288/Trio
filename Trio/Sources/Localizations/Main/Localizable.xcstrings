@@ -86475,7 +86475,7 @@
         }
       }
     },
-    "Enable Fatty Meal Option" : {
+    "Enable Reduced Bolus Option" : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -90333,7 +90333,7 @@
         }
       }
     },
-    "Enabling this setting adds a \"Fatty Meal\" option to the bolus calculator. Once this feature is enabled, a percentage setting will appear for you to select." : {
+    "Enabling this setting adds a \"Reduced Bolus\" option to the bolus calculator. Once this feature is enabled, a percentage setting will appear for you to select." : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -98853,7 +98853,7 @@
         }
       }
     },
-    "Fatty Meal" : {
+    "Reduced Bolus" : {
       "comment" : "For the  Bolus View pop-up",
       "localizations" : {
         "bg" : {
@@ -98960,7 +98960,7 @@
         }
       }
     },
-    "Fatty Meal Bolus Percentage" : {
+    "Reduced Bolus Percentage" : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -115671,7 +115671,7 @@
         }
       }
     },
-    "If you have a \"Recommended Bolus Percentage\" of 80%, and a \"Fatty Meal Bolus Percentage\" of 70%, your recommended bolus will be multiplied by: (80 × 70) / 100 = 56%." : {
+    "If you have a \"Recommended Bolus Percentage\" of 80%, and a \"Reduced Bolus Percentage\" of 70%, your recommended bolus will be multiplied by: (80 × 70) / 100 = 56%." : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -236319,7 +236319,7 @@
         }
       }
     },
-    "When \"Fatty Meal\" is selected in the bolus calculator, the recommended bolus will be multiplied by the \"Fatty Meal Bolus Percentage\" as well as the \"Recommended Bolus Percentage\"." : {
+    "When \"Reduced Bolus\" is selected in the bolus calculator, the recommended bolus will be multiplied by the \"Reduced Bolus Percentage\" as well as the \"Recommended Bolus Percentage\"." : {
       "localizations" : {
         "bg" : {
           "stringUnit" : {
