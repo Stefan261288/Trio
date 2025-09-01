@@ -446,7 +446,9 @@
 		BDFF7A8B2D25F97D0016C40C /* Unit Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF7A8A2D25F97D0016C40C /* Unit Tests.swift */; };
 		BF1667ADE69E4B5B111CECAE /* ManualTempBasalProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680C4420C9A345D46D90D06C /* ManualTempBasalProvider.swift */; };
 		C21FE1E72DA59C6B007D550B /* GlucoseDailyDistributionChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21FE1E62DA59C6B007D550B /* GlucoseDailyDistributionChart.swift */; };
+		C263D59F2E4267F400CBF08C /* NightscoutUploadGlucoseStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C263D59E2E4267F400CBF08C /* NightscoutUploadGlucoseStepView.swift */; };
 		C28DD7262DBA9A9E00EC02DD /* GlucosePercentileDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DD7252DBA9A9E00EC02DD /* GlucosePercentileDetailView.swift */; };
+		C29835B02E2AA3F30068C5BB /* NightscoutUploadStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29835AF2E2AA3F30068C5BB /* NightscoutUploadStepView.swift */; };
 		C29E268A2DADFD2A00F87E75 /* GlucoseDailyPercentileChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E26892DADFD2A00F87E75 /* GlucoseDailyPercentileChart.swift */; };
 		C2A0A42F2CE03131003B98E8 /* ConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A0A42E2CE0312C003B98E8 /* ConstantValues.swift */; };
 		C2A6D1E42DB1581D0036DB66 /* GlucoseStatsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A6D1E32DB1581D0036DB66 /* GlucoseStatsSetup.swift */; };
@@ -1267,7 +1269,9 @@
 		BF8BCB0C37DEB5EC377B9612 /* BasalProfileEditorRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BasalProfileEditorRootView.swift; sourceTree = "<group>"; };
 		C19984D62EFC0035A9E9644D /* TreatmentsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TreatmentsProvider.swift; sourceTree = "<group>"; };
 		C21FE1E62DA59C6B007D550B /* GlucoseDailyDistributionChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseDailyDistributionChart.swift; sourceTree = "<group>"; };
+		C263D59E2E4267F400CBF08C /* NightscoutUploadGlucoseStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutUploadGlucoseStepView.swift; sourceTree = "<group>"; };
 		C28DD7252DBA9A9E00EC02DD /* GlucosePercentileDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucosePercentileDetailView.swift; sourceTree = "<group>"; };
+		C29835AF2E2AA3F30068C5BB /* NightscoutUploadStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightscoutUploadStepView.swift; sourceTree = "<group>"; };
 		C29E26892DADFD2A00F87E75 /* GlucoseDailyPercentileChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseDailyPercentileChart.swift; sourceTree = "<group>"; };
 		C2A0A42E2CE0312C003B98E8 /* ConstantValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantValues.swift; sourceTree = "<group>"; };
 		C2A6D1E32DB1581D0036DB66 /* GlucoseStatsSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseStatsSetup.swift; sourceTree = "<group>"; };
@@ -3347,7 +3351,9 @@
 		DD3F1F8E2D9E151200DCE7B3 /* Nightscout */ = {
 			isa = PBXGroup;
 			children = (
+				C263D59E2E4267F400CBF08C /* NightscoutUploadGlucoseStepView.swift */,
 				DD3F1F8F2D9E153A00DCE7B3 /* NightscoutImportStepView.swift */,
+				C29835AF2E2AA3F30068C5BB /* NightscoutUploadStepView.swift */,
 				DD3F1F8C2D9E0E0000DCE7B3 /* NightscoutSetupStepView.swift */,
 				DD3F1F8A2D9E08B200DCE7B3 /* NightscoutLoginStepView.swift */,
 			);
@@ -4202,6 +4208,7 @@
 				58645BA32CA2D325008AFCE7 /* BatterySetup.swift in Sources */,
 				DD82D4B82DCAB2BA00BAFC77 /* PropertyPersistentFlags.swift in Sources */,
 				388E5A5C25B6F0770019842D /* JSON.swift in Sources */,
+				C263D59F2E4267F400CBF08C /* NightscoutUploadGlucoseStepView.swift in Sources */,
 				3811DF0225CA9FEA00A708ED /* Credentials.swift in Sources */,
 				5837A5302BD2E3C700A5DC04 /* CarbEntryStored+helper.swift in Sources */,
 				389A572026079BAA00BC102F /* Interpolation.swift in Sources */,
@@ -4498,6 +4505,7 @@
 				CEE9A65C2BBB41C800EB5194 /* CalibrationService.swift in Sources */,
 				110AEDED2C51A0AE00615CC9 /* ShortcutsConfigProvider.swift in Sources */,
 				38E4453D274E411700EC9A94 /* Disk+Errors.swift in Sources */,
+				C29835B02E2AA3F30068C5BB /* NightscoutUploadStepView.swift in Sources */,
 				58D08B3A2C8DFECD00AA37D3 /* TempTargets.swift in Sources */,
 				38E98A2325F52C9300C0CED0 /* Signpost.swift in Sources */,
 				CE7CA3542A064973004BE681 /* TempPresetsIntentRequest.swift in Sources */,
