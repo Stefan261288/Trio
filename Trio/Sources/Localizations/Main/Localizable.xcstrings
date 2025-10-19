@@ -9473,6 +9473,7 @@
       }
     },
     "• A higher number means you're less sensitive to insulin" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -9577,6 +9578,9 @@
           }
         }
       }
+    },
+    "• A higher number means you're more sensitive (less resistant) to insulin" : {
+
     },
     "• A lower number means you need more insulin for the same amount of carbs" : {
       "localizations" : {
@@ -9684,7 +9688,11 @@
         }
       }
     },
+    "• A lower number means you're less sensitive (more resistant) to insulin" : {
+
+    },
     "• A lower number means you're more sensitive to insulin" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -9790,7 +9798,72 @@
         }
       }
     },
+    "• A ratio of 10 g/U means 1 unit of insulin covers 10 g of carbs" : {
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Et forhold på 10 g/E betyder 1 enhed insulin dækker 10 g kulhydrater"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Ein Verhältnis von 10 g/IE bedeutet, dass 1 IE Insulin 10 g Kohlenhydrate abdeckt"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• A ratio of 10 g/U means 1 unit of insulin covers 10 g of carbs"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• 10g/U의 비율은 인슐린 1단위가 탄수화물 10g을 처리하고 있음을 의미합니다"
+          }
+        },
+        "nb-NO" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Et forhold på 10 g/E betyr at 1 enhet insulin dekker 10 g karbohydrater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Een verhouding van 10 g/E betekent 1 eenheid insuline voor 10 g koolhydraten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Stosunek 10 g/J oznacza, że 1 jednostka insuliny pokrywa 10 g węglowodanów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• En kvot på 10 g/E innebär att 1 enhet insulin täcker 10 g kolhydrater"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Tỷ lệ 10 g/U có nghĩa là 1 đơn vị insulin dùng để xử lý 10 g carbs"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• 10 g/U 的比率代表著 1 單位的胰島素可以處理 10 g 的碳水化合物"
+          }
+        }
+      }
+    },
     "• A ratio of 10 g/U means 1 unit of insulin covers 10g of carbs" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -9896,7 +9969,78 @@
         }
       }
     },
+    "• An ISF of %@ %@/U means 1 U lowers your glucose by %@ %@" : {
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• En ISF på %1$@ %2$@/E betyder, at 1 E sænker dit blodsukker med %3$@ %4$@"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Ein ISF von %1$@ %2$@/IE bedeutet, dass 1 IE Insulin die Glukose um %3$@ %4$@ senkt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "• An ISF of %1$@ %2$@/U means 1 U lowers your glucose by %3$@ %4$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Un ISF de %1$@ %2$@/U signifie qu’une unité d’insuline fait baisser votre mesure de glucose de %3$@ %4$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• ISF %1$@ %2$@/U 1 U이 혈당을 낮춥니다. %3$@ %4$@"
+          }
+        },
+        "nb-NO" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• En ISF på %1$@ %2$@/E betyr at 1 E senker blodsukkeret ditt med %3$@ %4$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• Een ISF van %1$@ %2$@/U betekent dat 1 U je glucose met %3$@ %4$@ verlaagt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• ISF %1$@ %2$@/J oznacza, że 1 J obniża poziom glukozy o %3$@ %4$@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• En ISF på %1$@ %2$@/E betyder att 1 E sänker ditt glukos med %3$@ %4$@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• ISF là %1$@ %2$@/U có nghĩa là 1 đơn vị insulin sẽ làm giảm đường huyết của bạn xuống %3$@ %4$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "• 一個 ISF 的 %1$@ %2$@/U 代表著 1 U 可以將您的血糖降低 %3$@ %4$@"
+          }
+        }
+      }
+    },
     "• An ISF of %@ means 1 U lowers your glucose by %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -100484,7 +100628,66 @@
         }
       }
     },
+    "For 45 g of carbs, you would need:" : {
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For 45 g kulhydrat ville du have brug for:"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für 45 g Kohlenhydrate würdest Du benötigen:"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pour 45 g de glucides, vous auriez besoin de :"
+          }
+        },
+        "nb-NO" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For 45 g karbohydrater trenger du:"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor 45 g koolhydraten zou je nodig hebben:"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dla 45 g węglowodanów potrzebowałby:"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För 45 g kolhydrater skulle du behöva:"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Với 45 g carbs, bạn sẽ cần:"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對於 45 g 的碳水化合物，您需要："
+          }
+        }
+      }
+    },
     "For 45g of carbs, you would need:" : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -233697,6 +233900,7 @@
       }
     },
     "Welcome to Trio - an automated insulin delivery system for iOS based on the OpenAPS algorithm with adaptations." : {
+      "extractionState" : "stale",
       "localizations" : {
         "bg" : {
           "stringUnit" : {
@@ -233792,6 +233996,76 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chào mừng đến với Trio - hệ thống cung cấp insulin tự động cho iOS dựa trên thuật toán OpenAPS với nhiều cải tiến."
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歡迎來到 Trio 一個基於 OpenAPS 演算法的自動化胰島素輸送系統，適用於 iOS，並做了調整。"
+          }
+        }
+      }
+    },
+    "Welcome to Trio — an automated insulin delivery system for iOS based on the OpenAPS algorithm with adaptations." : {
+      "localizations" : {
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen til Trio — et automatiseret insulinleveringssystem til iOS baseret på OpenAPS-algoritmen med tilpasninger."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen bei Trio — einem automatisierten Insulin Dosiersystem für iOS, basierend auf dem OpenAPS Algorithmus mit Anpassungen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenue dans Trio — un système de délivrance automatisée d’insuline pour iOS, basé sur l’algorithme OpenAPS avec des adaptations."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Trio — an automated insulin delivery system for iOS based on the OpenAPS algorithm with adaptations."
+          }
+        },
+        "nb-NO" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen til Trio — et system for automatisert insulinleveranse basert på OpenAPS-algoritmen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom bij Trio — een geautomatiseerd insulinetoedieningssysteem voor iOS op basis van het OpenAPS algoritme (met aanpassingen)."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witamy w Trio — zautomatyzowanym systemie dostarczania insuliny dla systemu iOS opartym na algorytmie OpenAPS z adaptacjami."
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Trio — an automated insulin delivery system for iOS based on the OpenAPS algorithm with adaptations."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välkommen till Trio — ett automatiserat insulinleveranssystem för iOS baserat på OpenAPS-algoritmen med anpassningar."
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chào mừng đến với Trio — hệ thống cung cấp insulin tự động cho iOS dựa trên thuật toán OpenAPS với nhiều cải tiến."
           }
         },
         "zh-Hant" : {
